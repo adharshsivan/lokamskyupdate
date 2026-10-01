@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+html, body, #root { height: 100%; margin: 0; background: #000; overscroll-behavior: none; -webkit-tap-highlight-color: transparent; }
+.timeline { -webkit-appearance: none; appearance: none; background: transparent; height: 36px; }
+.timeline::-webkit-slider-thumb { -webkit-appearance: none; width: 18px; height: 18px; border-radius: 9999px; background: #fff; box-shadow: 0 0 0 4px rgba(255,255,255,.25), 0 2px 8px rgba(0,0,0,.5); cursor: pointer; }
+.timeline::-moz-range-thumb { width: 18px; height: 18px; border: none; border-radius: 9999px; background: #fff; box-shadow: 0 0 0 4px rgba(255,255,255,.25); cursor: pointer; }
+.timeline::-moz-range-track { background: transparent; }
+.rainbow-text {
+  background: linear-gradient(90deg, #ff6b6b, #ffb86b, #ffe66b, #7dff8a, #6bc6ff, #a78bfa);
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+}
